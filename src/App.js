@@ -2,6 +2,7 @@ import "./App.css";
 import Row from "./Row";
 import requests from "./requests";
 import Banner from "./Banner";
+import Nav from "./Nav";
 
 //9fa97ce22b1157cfeb46a1c36c86a366
 //https://api.themoviedb.org/3/movie/550?api_key=9fa97ce22b1157cfeb46a1c36c86a366
@@ -9,7 +10,7 @@ import Banner from "./Banner";
 function App() {
   return (
     <div className="app">
-      {/* Nav */}
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
